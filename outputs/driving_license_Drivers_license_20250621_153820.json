@@ -1,0 +1,173 @@
+{
+  "processing_summary": {
+    "document_type": "driving_license",
+    "dataset_directory": "Drivers_license",
+    "total_files": 11,
+    "successful_extractions": 10,
+    "failed_extractions": 1,
+    "timestamp": "20250621_153820",
+    "custom_prompt_used": false,
+    "custom_prompt_name": null
+  },
+  "results": [
+    {
+      "success": true,
+      "document_type": "driving_license",
+      "raw_response": "{\n  \"name\": \"Douglas Linda\",\n  \"date_of_birth\": \"07/09/2001\",\n  \"license_number\": \"QKPASGD77K\",\n  \"issuing_state\": \"IRELAND\",\n  \"expiry_date\": \"06/25/2023\"\n}",
+      "validated_data": {
+        "name": "Douglas Linda",
+        "date_of_birth": "07/09/2001",
+        "license_number": "QKPASGD77K",
+        "issuing_state": "IRELAND",
+        "expiry_date": "06/25/2023"
+      },
+      "error_message": null,
+      "file_path": "datasets/Drivers_license/generated_license_1071.png",
+      "file_name": "generated_license_1071.png"
+    },
+    {
+      "success": true,
+      "document_type": "driving_license",
+      "raw_response": "{\n  \"name\": \"CHRISTOPHER MORGAN\",\n  \"date_of_birth\": \"03/23/1991\",\n  \"license_number\": \"E740B1FVQ\",\n  \"issuing_state\": \"IRELAND\",\n  \"expiry_date\": \"05/22/2059\"\n}",
+      "validated_data": {
+        "name": "CHRISTOPHER MORGAN",
+        "date_of_birth": "03/23/1991",
+        "license_number": "E740B1FVQ",
+        "issuing_state": "IRELAND",
+        "expiry_date": "05/22/2059"
+      },
+      "error_message": null,
+      "file_path": "datasets/Drivers_license/generated_license_1099.png",
+      "file_name": "generated_license_1099.png"
+    },
+    {
+      "success": true,
+      "document_type": "driving_license",
+      "raw_response": "{\n  \"name\": \"SHELLEY YOUNG\",\n  \"date_of_birth\": \"10/24/1951\",\n  \"license_number\": \"HM1BEWBX9\",\n  \"issuing_state\": \"IRELAND\",\n  \"expiry_date\": \"05/06/1977\"\n}",
+      "validated_data": {
+        "name": "SHELLEY YOUNG",
+        "date_of_birth": "10/24/1951",
+        "license_number": "HM1BEWBX9",
+        "issuing_state": "IRELAND",
+        "expiry_date": "05/06/1977"
+      },
+      "error_message": null,
+      "file_path": "datasets/Drivers_license/generated_license_1063.png",
+      "file_name": "generated_license_1063.png"
+    },
+    {
+      "success": true,
+      "document_type": "driving_license",
+      "raw_response": "{\n  \"name\": \"Pope Martin\",\n  \"date_of_birth\": \"01/23/1927\",\n  \"license_number\": \"6P227DCHM\",\n  \"issuing_state\": \"IRELAND\",\n  \"expiry_date\": \"06/29/1965\"\n}",
+      "validated_data": {
+        "name": "Pope Martin",
+        "date_of_birth": "01/23/1927",
+        "license_number": "6P227DCHM",
+        "issuing_state": "IRELAND",
+        "expiry_date": "06/29/1965"
+      },
+      "error_message": null,
+      "file_path": "datasets/Drivers_license/generated_license_1077.png",
+      "file_name": "generated_license_1077.png"
+    },
+    {
+      "success": false,
+      "document_type": "driving_license",
+      "raw_response": "",
+      "validated_data": null,
+      "error_message": "Failed after 3 attempts. Last error: 1 validation error for DrivingLicense\nname\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.11/v/string_type",
+      "file_path": "datasets/Drivers_license/generated_license_1014.png",
+      "file_name": "generated_license_1014.png"
+    },
+    {
+      "success": true,
+      "document_type": "driving_license",
+      "raw_response": "{\n  \"name\": \"CHRISTINA SULLIVAN\",\n  \"date_of_birth\": \"06/17/2003\",\n  \"license_number\": \"32SSBFNN\",\n  \"issuing_state\": \"IRELAND\",\n  \"expiry_date\": \"11/14/2057\"\n}",
+      "validated_data": {
+        "name": "CHRISTINA SULLIVAN", 
+        "date_of_birth": "06/17/2003",
+        "license_number": "32SSBFNN",
+        "issuing_state": "IRELAND",
+        "expiry_date": "11/14/2057"
+      },
+      "error_message": null,
+      "file_path": "datasets/Drivers_license/generated_license_1003.png",
+      "file_name": "generated_license_1003.png"
+    },
+    {
+      "success": true,
+      "document_type": "driving_license",
+      "raw_response": "{\n  \"name\": \"Eric Young\",\n  \"date_of_birth\": \"06/14/1967\",\n  \"license_number\": \"10ZR9SSOL\",\n  \"issuing_state\": \"IRELAND\",\n  \"expiry_date\": \"10/20/2020\"\n}",
+      "validated_data": {
+        "name": "Eric Young",
+        "date_of_birth": "06/14/1967",
+        "license_number": "10ZR9SSOL",
+        "issuing_state": "IRELAND",
+        "expiry_date": "10/20/2020"
+      },
+      "error_message": null,
+      "file_path": "datasets/Drivers_license/generated_license_10.png",
+      "file_name": "generated_license_10.png"
+    },
+    {
+      "success": true,
+      "document_type": "driving_license",
+      "raw_response": "{\n  \"name\": \"Anderson Michael\",\n  \"date_of_birth\": \"02/19/1993\",\n  \"license_number\": \"EHMBARC3\",\n  \"issuing_state\": \"IRELAND\",\n  \"expiry_date\": \"01/14/2041\"\n}",
+      "validated_data": {
+        "name": "Anderson Michael",
+        "date_of_birth": "02/19/1993",
+        "license_number": "EHMBARC3",
+        "issuing_state": "IRELAND",
+        "expiry_date": "01/14/2041"
+      },
+      "error_message": null,
+      "file_path": "datasets/Drivers_license/generated_license_1.png",
+      "file_name": "generated_license_1.png"
+    },
+    {
+      "success": true,
+      "document_type": "driving_license",
+      "raw_response": "{\n  \"name\": \"Aaron Collins\",\n  \"date_of_birth\": \"10/09/1956\",\n  \"license_number\": \"MKWMJ089\",\n  \"issuing_state\": \"IRELAND\",\n  \"expiry_date\": \"04/14/1967\"\n}",
+      "validated_data": {
+        "name": "Aaron Collins",
+        "date_of_birth": "10/09/1956",
+        "license_number": "MKWMJ089",
+        "issuing_state": "IRELAND",
+        "expiry_date": "04/14/1967"
+      },
+      "error_message": null,
+      "file_path": "datasets/Drivers_license/generated_license_0.png",
+      "file_name": "generated_license_0.png"
+    },
+    {
+      "success": true,
+      "document_type": "driving_license",
+      "raw_response": "{\n  \"name\": \"CHARLES STOKES\",\n  \"date_of_birth\": \"06/04/2003\",\n  \"license_number\": \"1R6IE3SSSZXDW\",\n  \"issuing_state\": \"IRELAND\",\n  \"expiry_date\": \"01/23/2027\"\n}",
+      "validated_data": {
+        "name": "CHARLES STOKES",
+        "date_of_birth": "06/04/2003",
+        "license_number": "1R6IE3SSSZXDW",
+        "issuing_state": "IRELAND",
+        "expiry_date": "01/23/2027"
+      },
+      "error_message": null,
+      "file_path": "datasets/Drivers_license/generated_license_1023.png",
+      "file_name": "generated_license_1023.png"
+    },
+    {
+      "success": true,
+      "document_type": "driving_license",
+      "raw_response": "{\n  \"name\": \"JAMES POLLARD\",\n  \"date_of_birth\": \"09/16/1984\",\n  \"license_number\": \"JU7BTX591FJU\",\n  \"issuing_state\": \"IRELAND\",\n  \"expiry_date\": null\n}",
+      "validated_data": {
+        "name": "JAMES POLLARD",
+        "date_of_birth": "09/16/1984",
+        "license_number": "JU7BTX591FJU",
+        "issuing_state": "IRELAND",
+        "expiry_date": null
+      },
+      "error_message": null,
+      "file_path": "datasets/Drivers_license/generated_license_1108.png",
+      "file_name": "generated_license_1108.png"
+    }
+  ]
+}

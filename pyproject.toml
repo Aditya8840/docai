@@ -1,0 +1,16 @@
+[project]
+name = "docai"
+version = "0.1.0"
+description = "Data extraction from documents"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "easyocr>=1.7.2",
+    "google-generativeai>=0.8.5",
+    "litellm>=1.72.9",
+    "numpy>=2.3.0",
+    "pillow>=11.2.1",
+    "pydantic>=2.11.7",
+    "pytesseract>=0.3.13",
+    "python-dotenv>=1.1.0",
+]
